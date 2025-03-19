@@ -1,0 +1,16 @@
+check.png: 2.11s
+0in1477.png: 3.05s
+0in1710.png: 3.31s
+0in1367.png: 3.55s
+0in1039.png: 3.39s
+0in1015.png: 2.96s
+0in1598.png: 3.40s
+meow.png: 2.46s
+0in1382.png: 3.92s
+0in1433.png: 3.35s
+0in1426.png: 3.94s
+0in1679.png: 3.08s
+
+Total test time: 38.53s
+Total test number: 12
+Average time: 3.21s

@@ -1,0 +1,502 @@
+train_data_root: /Users/Rudra/Downloads/deep_layout/pickle/train
+val_data_root: /Users/Rudra/Downloads/deep_layout/pickle/val
+save_log_root: log
+result_file: result_living.csv
+module_name: living
+model_name: resnet34_fc1
+load_model_path: None
+load_connect_path: None
+mask_size: 9
+multi_GPU: False
+batch_size: 16
+num_workers: 2
+print_freq: 300
+max_epoch: 300
+current_epoch: 0
+save_freq: 50
+val_freq: 5
+update_lr: True
+lr_decay_freq: 30
+lr_base: 0.0001
+weight_decay: 0.0001
+parse: <bound method LivingConfig.parse of <config_living.LivingConfig object at 0x15649eed0>>
+Training start time: Sep 17 2024 16:34:53
+Building model...
+Building dataset...
+Building data loader...
+Building criterion and optimizer...
+Starting to train...
+
+Training epoch: 1
+loss 65.39440
+loss 41.03180
+loss 29.54134
+loss 22.26472
+loss 17.35072
+loss 13.57008
+loss 12.28435
+loss 12.19970
+loss 11.66775
+loss 11.64492
+loss 11.48138
+loss 11.26850
+loss 11.00495
+loss 10.71475
+loss 10.89148
+loss 10.49608
+Average Loss: 18.50081
+
+Training epoch: 2
+loss 10.36294
+loss 10.40089
+loss 10.19547
+loss 10.16220
+loss 10.12095
+loss 10.09006
+loss 9.97105
+loss 9.76361
+loss 9.78798
+loss 9.61932
+loss 9.76723
+loss 9.52857
+loss 9.45321
+loss 9.64273
+loss 9.47755
+loss 9.27595
+Average Loss: 9.82163
+
+Training epoch: 3
+loss 9.32000
+loss 9.16879
+loss 9.34001
+loss 9.10676
+loss 9.18970
+loss 9.13766
+loss 9.14889
+loss 9.19487
+loss 9.02120
+loss 9.01494
+loss 9.04039
+loss 9.07145
+loss 8.90162
+loss 8.77034
+loss 8.95399
+loss 8.93450
+Average Loss: 9.07646
+
+Training epoch: 4
+loss 8.40133
+loss 8.57442
+loss 8.83423
+loss 8.66184
+loss 8.72213
+loss 8.75128
+loss 8.84096
+loss 8.70771
+loss 8.96752
+loss 8.81910
+loss 8.61660
+loss 8.53419
+loss 8.55559
+loss 8.73861
+loss 8.54306
+loss 8.50542
+Average Loss: 8.66084
+
+Training epoch: 5
+loss 8.19373
+loss 8.41440
+loss 8.54374
+loss 8.28546
+loss 8.53671
+loss 8.21967
+loss 8.46221
+loss 8.21051
+loss 8.51761
+loss 8.32447
+loss 8.38032
+loss 8.26687
+loss 8.20719
+loss 8.29182
+loss 8.25131
+loss 8.46406
+Average Loss: 8.34963
+Val Error: 0.92712
+
+Training epoch: 6
+loss 7.77500
+loss 7.89694
+loss 8.06222
+loss 8.14707
+loss 7.91882
+loss 8.05621
+loss 8.12735
+loss 8.30132
+loss 8.27573
+loss 8.08821
+loss 7.97781
+loss 8.26325
+loss 8.22398
+loss 8.13359
+loss 8.14081
+loss 8.03030
+Average Loss: 8.08337
+
+Training epoch: 7
+loss 7.88894
+loss 7.91642
+loss 7.84554
+loss 7.92195
+loss 7.75632
+loss 7.93936
+loss 7.87648
+loss 7.83963
+loss 7.77214
+loss 7.69729
+loss 7.68127
+loss 7.96710
+loss 7.76373
+loss 7.90721
+loss 7.74385
+loss 7.69374
+Average Loss: 7.8334
+
+Training epoch: 8
+loss 7.54409
+loss 7.60413
+loss 7.67274
+loss 7.83892
+loss 7.76343
+loss 7.48005
+loss 7.46079
+loss 7.55366
+loss 7.70155
+loss 7.76282
+loss 7.69573
+loss 7.77008
+loss 7.57627
+loss 7.64707
+loss 7.44148
+loss 7.49142
+Average Loss: 7.61652
+
+Training epoch: 9
+loss 7.42005
+loss 7.42252
+loss 7.34099
+loss 7.26841
+loss 7.48437
+loss 7.42026
+loss 7.39051
+loss 7.16914
+loss 7.38605
+loss 7.28800
+loss 7.37080
+loss 7.31273
+loss 7.48135
+loss 7.40933
+loss 7.55841
+loss 7.67545
+Average Loss: 7.39275
+
+Training epoch: 10
+loss 7.00114
+loss 7.24949
+loss 7.01258
+loss 7.04963
+loss 7.10607
+loss 7.06092
+loss 7.07537
+loss 7.26203
+loss 7.21602
+loss 7.38760
+loss 7.23966
+loss 7.16521
+loss 7.12299
+loss 7.17574
+loss 7.12753
+loss 7.25733
+Average Loss: 7.16141
+Val Error: 0.80605
+
+Training epoch: 11
+loss 6.80182
+loss 6.74513
+loss 6.92420
+loss 7.07577
+loss 6.76720
+loss 6.98717
+loss 6.99346
+loss 6.89992
+loss 7.05140
+loss 6.95676
+loss 6.83345
+loss 6.98406
+loss 6.92415
+loss 7.00671
+loss 6.88134
+loss 6.92531
+Average Loss: 6.92324
+
+Training epoch: 12
+loss 6.57480
+loss 6.56884
+loss 6.62093
+loss 6.55794
+loss 6.56040
+loss 6.64021
+loss 6.75809
+loss 6.66539
+loss 6.65713
+loss 6.75944
+loss 6.68878
+loss 6.66489
+loss 6.67560
+loss 6.78864
+loss 6.70506
+loss 6.94534
+Average Loss: 6.68233
+
+Training epoch: 13
+loss 6.28521
+loss 6.29066
+loss 6.31087
+loss 6.45371
+loss 6.37891
+loss 6.46698
+loss 6.46796
+loss 6.49473
+loss 6.54837
+loss 6.54978
+loss 6.51274
+loss 6.50776
+loss 6.55174
+loss 6.18007
+loss 6.44443
+loss 6.57021
+Average Loss: 6.44709
+
+Training epoch: 14
+loss 6.15612
+loss 5.91173
+loss 6.18911
+loss 6.35723
+loss 6.07302
+loss 6.01289
+loss 6.10559
+loss 6.26068
+loss 6.28172
+loss 6.20775
+loss 6.09602
+loss 6.22814
+loss 6.21270
+loss 6.23763
+loss 6.34211
+loss 6.29870
+Average Loss: 6.19073
+
+Training epoch: 15
+loss 5.90952
+loss 5.98447
+loss 5.65590
+loss 5.92152
+loss 5.95522
+loss 5.75126
+loss 5.86505
+loss 5.94468
+loss 5.88740
+loss 5.99478
+loss 5.87016
+loss 6.16515
+loss 5.94873
+loss 6.02716
+loss 5.92787
+loss 6.09838
+Average Loss: 5.93181
+Val Error: 0.66479
+
+Training epoch: 16
+loss 5.60276
+loss 5.53469
+loss 5.73350
+loss 5.68537
+loss 5.52001
+loss 5.68739
+loss 5.59121
+loss 5.69011
+loss 5.68234
+loss 5.46376
+loss 5.63474
+loss 5.67668
+loss 5.56608
+loss 5.77379
+loss 5.84994
+loss 5.91104
+Average Loss: 5.66932
+
+Training epoch: 17
+loss 5.41800
+loss 5.22431
+loss 5.28516
+loss 5.33150
+loss 5.50620
+loss 5.27756
+loss 5.39868
+loss 5.35010
+loss 5.38339
+loss 5.41418
+loss 5.38641
+loss 5.60917
+loss 5.59529
+loss 5.62635
+loss 5.45142
+loss 5.59570
+Average Loss: 5.43029
+
+Training epoch: 18
+loss 5.03140
+loss 5.09497
+loss 5.12872
+loss 5.01391
+loss 4.96623
+loss 5.16182
+loss 5.39436
+loss 5.19294
+loss 5.26424
+loss 5.21383
+loss 5.38167
+loss 5.18472
+loss 5.41177
+loss 5.32105
+loss 5.29279
+loss 5.09946
+Average Loss: 5.2039
+
+Training epoch: 19
+loss 4.77877
+loss 4.98614
+loss 4.86013
+loss 4.93148
+loss 4.82055
+loss 4.87114
+loss 4.89373
+loss 4.87653
+loss 5.07128
+loss 5.24113
+loss 5.12237
+loss 5.06537
+loss 5.06120
+loss 4.98527
+loss 4.91941
+loss 5.05906
+Average Loss: 4.97606
+
+Training epoch: 20
+loss 4.51902
+loss 4.68558
+loss 4.66705
+loss 4.61554
+loss 4.51856
+loss 4.70787
+loss 4.70505
+loss 4.69614
+loss 4.93116
+loss 4.77140
+loss 4.73238
+loss 4.81533
+loss 4.93556
+loss 4.86364
+loss 4.90091
+loss 4.83546
+Average Loss: 4.74394
+Val Error: 0.56207
+
+Training epoch: 21
+loss 4.33507
+loss 4.36817
+loss 4.44023
+loss 4.44839
+loss 4.45057
+loss 4.64497
+loss 4.49121
+loss 4.57401
+loss 4.46913
+loss 4.47968
+loss 4.57089
+loss 4.60563
+loss 4.58192
+loss 4.60539
+loss 4.70090
+loss 4.52872
+Average Loss: 4.52325
+
+Training epoch: 22
+loss 4.22024
+loss 4.09359
+loss 4.17977
+loss 4.11939
+loss 4.23268
+loss 4.30490
+loss 4.25575
+loss 4.30095
+loss 4.38910
+loss 4.42818
+loss 4.52999
+loss 4.34510
+loss 4.43862
+loss 4.45962
+loss 4.35488
+loss 4.49798
+Average Loss: 4.33082
+
+Training epoch: 23
+loss 3.97461
+loss 3.96311
+loss 4.03128
+loss 4.09660
+loss 4.08908
+loss 4.08155
+loss 4.14418
+loss 4.03318
+loss 3.99634
+loss 4.16598
+loss 4.24827
+loss 4.16704
+loss 4.25492
+loss 4.22153
+loss 4.29452
+loss 4.34661
+Average Loss: 4.13323
+
+Training epoch: 24
+loss 3.71358
+loss 3.77328
+loss 3.86973
+loss 3.93852
+loss 3.90109
+loss 3.95359
+loss 3.91799
+loss 4.04372
+loss 3.95822
+loss 4.00354
+loss 4.06484
+loss 4.14677
+loss 3.96941
+loss 4.00735
+loss 4.02166
+loss 4.06199
+Average Loss: 3.95989
+
+Training epoch: 25
+loss 3.64722
+loss 3.70916
+loss 3.69167
+loss 3.69119
+loss 3.82791
+loss 3.69306
+loss 3.82017
+loss 3.87123
+loss 3.79667
+loss 3.70246
+loss 3.90722
+loss 3.80397

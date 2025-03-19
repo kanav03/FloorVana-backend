@@ -1,0 +1,15 @@
+check.png: 1.66s
+0in1477.png: 2.03s
+0in1710.png: 2.63s
+0in1367.png: 3.67s
+0in1039.png: 3.79s
+0in1015.png: 3.43s
+0in1598.png: 3.79s
+0in1382.png: 4.43s
+0in1433.png: 3.40s
+0in1426.png: 3.33s
+0in1679.png: 2.39s
+
+Total test time: 34.56s
+Total test number: 11
+Average time: 3.14s

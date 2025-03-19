@@ -1,0 +1,529 @@
+2025-03-18 19:26:05,603 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.3.187.12:5000
+2025-03-18 19:26:05,604 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-18 19:26:05,644 - werkzeug - INFO -  * Restarting with watchdog (fsevents)
+2025-03-18 19:26:06,944 - werkzeug - WARNING -  * Debugger is active!
+2025-03-18 19:26:06,966 - werkzeug - INFO -  * Debugger PIN: 690-938-629
+2025-03-18 19:27:16,879 - __main__ - INFO - Saved file at uploads/Hsk.png
+2025-03-18 19:27:16,897 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2025-03-18 19:27:16,897 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2025-03-18 19:27:16,897 - PIL.PngImagePlugin - DEBUG - STREAM b'eXIf' 54 132
+2025-03-18 19:27:16,897 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 198 9
+2025-03-18 19:27:16,898 - PIL.PngImagePlugin - DEBUG - STREAM b'iDOT' 219 28
+2025-03-18 19:27:16,898 - PIL.PngImagePlugin - DEBUG - b'iDOT' 219 28 (unknown)
+2025-03-18 19:27:16,898 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 259 2987
+2025-03-18 19:27:16,898 - __main__ - INFO - Image format: PNG, Size: (256, 256), Mode: RGBA
+2025-03-18 19:27:16,901 - fsevents - DEBUG - NativeEvent(path="/Users/Rudra/Downloads/Model/deep_layout/synth/uploads/Hsk.png", inode=27974226, flags=11400, id=193578244): is_file, is_inode_meta_mod, is_modified
+2025-03-18 19:27:16,901 - fsevents - DEBUG - queue_event FileModifiedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/uploads/Hsk.png', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+2025-03-18 19:27:16,902 - __main__ - INFO - Array shape: (256, 256, 4), dtype: uint8, Unique values count per channel: R:128, G:1, B:1, A:2
+2025-03-18 19:27:16,902 - __main__ - INFO - Starting synthesis phase...
+2025-03-18 19:27:16,914 - fsevents - DEBUG - NativeEvent(path="/Users/Rudra/Downloads/Model/deep_layout/synth/synth_output/hj.png", inode=28065554, flags=10200, id=193578247): is_file, is_removed
+2025-03-18 19:27:16,914 - fsevents - DEBUG - NativeEvent(path="/Users/Rudra/Downloads/Model/deep_layout/synth/synth_output", inode=28065550, flags=20200, id=193578250): is_directory, is_removed
+2025-03-18 19:27:16,914 - fsevents - DEBUG - NativeEvent(path="/Users/Rudra/Downloads/Model/deep_layout/synth/synth_output", inode=28067322, flags=20100, id=193578253): is_created, is_directory
+2025-03-18 19:27:16,914 - fsevents - DEBUG - queue_event FileDeletedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/synth_output/hj.png', dest_path='', event_type='deleted', is_directory=False, is_synthetic=False)
+2025-03-18 19:27:16,914 - fsevents - DEBUG - queue_event DirModifiedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/synth_output', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+2025-03-18 19:27:16,914 - fsevents - DEBUG - queue_event DirDeletedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/synth_output', dest_path='', event_type='deleted', is_directory=True, is_synthetic=False)
+2025-03-18 19:27:16,915 - fsevents - DEBUG - queue_event DirModifiedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+2025-03-18 19:27:16,915 - fsevents - DEBUG - queue_event DirCreatedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/synth_output', dest_path='', event_type='created', is_directory=True, is_synthetic=False)
+2025-03-18 19:27:16,916 - fsevents - DEBUG - queue_event DirModifiedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+2025-03-18 19:27:18,993 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2025-03-18 19:27:18,993 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2025-03-18 19:27:18,993 - PIL.PngImagePlugin - DEBUG - STREAM b'eXIf' 54 132
+2025-03-18 19:27:18,993 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 198 9
+2025-03-18 19:27:18,993 - PIL.PngImagePlugin - DEBUG - STREAM b'iDOT' 219 28
+2025-03-18 19:27:18,993 - PIL.PngImagePlugin - DEBUG - b'iDOT' 219 28 (unknown)
+2025-03-18 19:27:18,993 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 259 2987
+2025-03-18 19:27:20,488 - __main__ - INFO - Synthesis complete. Output saved at: synth_output/Hsk.png
+2025-03-18 19:27:20,488 - __main__ - INFO - Waiting 2 seconds for synthesis to stabilize...
+2025-03-18 19:27:20,495 - fsevents - DEBUG - NativeEvent(path="/Users/Rudra/Downloads/Model/deep_layout/synth/synth_output/Hsk.png", inode=28067326, flags=11100, id=193578286): is_created, is_file, is_modified
+2025-03-18 19:27:20,495 - fsevents - DEBUG - queue_event FileCreatedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/synth_output/Hsk.png', dest_path='', event_type='created', is_directory=False, is_synthetic=False)
+2025-03-18 19:27:20,495 - fsevents - DEBUG - queue_event DirModifiedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/synth_output', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+2025-03-18 19:27:20,495 - fsevents - DEBUG - queue_event FileModifiedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/synth_output/Hsk.png', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+2025-03-18 19:27:22,995 - __main__ - INFO - Starting normalization phase...
+2025-03-18 19:27:22,996 - __main__ - INFO - Normalizing: synth_output/Hsk.png
+2025-03-18 19:27:22,996 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2025-03-18 19:27:22,997 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 41 2874
+2025-03-18 19:27:22,997 - __main__ - DEBUG - Input map shape: (256, 256, 4)
+2025-03-18 19:27:23,013 - fsevents - DEBUG - NativeEvent(path="/Users/Rudra/Downloads/Model/deep_layout/synth/synth_normalization/hj.png", inode=28065558, flags=10200, id=193578364): is_file, is_removed
+2025-03-18 19:27:23,025 - fsevents - DEBUG - NativeEvent(path="/Users/Rudra/Downloads/Model/deep_layout/synth/synth_normalization", inode=28065557, flags=20200, id=193578367): is_directory, is_removed
+2025-03-18 19:27:23,032 - fsevents - DEBUG - NativeEvent(path="/Users/Rudra/Downloads/Model/deep_layout/synth/synth_normalization", inode=28067330, flags=20100, id=193578370): is_created, is_directory
+2025-03-18 19:27:23,044 - fsevents - DEBUG - queue_event FileDeletedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/synth_normalization/hj.png', dest_path='', event_type='deleted', is_directory=False, is_synthetic=False)
+2025-03-18 19:27:23,056 - fsevents - DEBUG - queue_event DirModifiedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/synth_normalization', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+2025-03-18 19:27:23,069 - fsevents - DEBUG - queue_event DirDeletedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/synth_normalization', dest_path='', event_type='deleted', is_directory=True, is_synthetic=False)
+2025-03-18 19:27:23,072 - fsevents - DEBUG - queue_event DirModifiedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+2025-03-18 19:27:23,072 - fsevents - DEBUG - queue_event DirCreatedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/synth_normalization', dest_path='', event_type='created', is_directory=True, is_synthetic=False)
+2025-03-18 19:27:23,072 - fsevents - DEBUG - queue_event DirModifiedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+2025-03-18 19:27:23,076 - __main__ - INFO - Normalization complete for: Hsk.png
+2025-03-18 19:27:23,076 - __main__ - INFO - Starting visualization phase...
+2025-03-18 19:27:23,088 - fsevents - DEBUG - NativeEvent(path="/Users/Rudra/Downloads/Model/deep_layout/synth/synth_normalization/Hsk.png", inode=28067331, flags=11100, id=193578376): is_created, is_file, is_modified
+2025-03-18 19:27:23,088 - fsevents - DEBUG - queue_event FileCreatedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/synth_normalization/Hsk.png', dest_path='', event_type='created', is_directory=False, is_synthetic=False)
+2025-03-18 19:27:23,088 - fsevents - DEBUG - queue_event DirModifiedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/synth_normalization', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+2025-03-18 19:27:23,088 - fsevents - DEBUG - queue_event FileModifiedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/synth_normalization/Hsk.png', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+2025-03-18 19:27:24,156 - fsevents - DEBUG - NativeEvent(path="/Users/Rudra/Downloads/Model/deep_layout/synth/visualization_output/Hsk.png", inode=27974237, flags=10400, id=193578414): is_file, is_inode_meta_mod
+2025-03-18 19:27:24,156 - fsevents - DEBUG - queue_event FileModifiedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/visualization_output/Hsk.png', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+2025-03-18 19:27:24,179 - __main__ - INFO - Visualization complete. Output saved at: visualization_output/Hsk.png
+2025-03-18 19:27:24,185 - fsevents - DEBUG - NativeEvent(path="/Users/Rudra/Downloads/Model/deep_layout/synth/visualization_output/Hsk.png", inode=27974237, flags=11400, id=193578417): is_file, is_inode_meta_mod, is_modified
+2025-03-18 19:27:24,185 - fsevents - DEBUG - queue_event FileModifiedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/visualization_output/Hsk.png', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+2025-03-18 19:27:24,203 - werkzeug - INFO - 127.0.0.1 - - [18/Mar/2025 19:27:24] "POST /generate_floorplan HTTP/1.1" 200 -
+2025-03-18 19:27:59,502 - fsevents - DEBUG - NativeEvent(path="/Users/Rudra/Downloads/Model/deep_layout/synth/visualization_output/Te.png", inode=28029892, flags=10800, id=193578880): is_file, is_renamed
+2025-03-18 19:27:59,502 - fsevents - DEBUG - queue_event FileDeletedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/visualization_output/Te.png', dest_path='', event_type='deleted', is_directory=False, is_synthetic=False)
+2025-03-18 19:27:59,503 - fsevents - DEBUG - queue_event DirModifiedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/visualization_output', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+2025-03-18 19:27:59,577 - fsevents - DEBUG - NativeEvent(path="/Users/Rudra/Downloads/Model/deep_layout/synth/visualization_output/pp.png", inode=28029937, flags=10800, id=193578913): is_file, is_renamed
+2025-03-18 19:27:59,577 - fsevents - DEBUG - NativeEvent(path="/Users/Rudra/Downloads/Model/deep_layout/synth/visualization_output/Nnt.png", inode=28031630, flags=10800, id=193578917): is_file, is_renamed
+2025-03-18 19:27:59,578 - fsevents - DEBUG - queue_event FileDeletedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/visualization_output/pp.png', dest_path='', event_type='deleted', is_directory=False, is_synthetic=False)
+2025-03-18 19:27:59,578 - fsevents - DEBUG - queue_event DirModifiedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/visualization_output', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+2025-03-18 19:27:59,579 - fsevents - DEBUG - queue_event FileDeletedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/visualization_output/Nnt.png', dest_path='', event_type='deleted', is_directory=False, is_synthetic=False)
+2025-03-18 19:27:59,579 - fsevents - DEBUG - queue_event DirModifiedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/visualization_output', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+2025-03-18 19:27:59,597 - fsevents - DEBUG - NativeEvent(path="/Users/Rudra/Downloads/Model/deep_layout/synth/visualization_output/New.png", inode=28014603, flags=10800, id=193578921): is_file, is_renamed
+2025-03-18 19:27:59,598 - fsevents - DEBUG - queue_event FileDeletedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/visualization_output/New.png', dest_path='', event_type='deleted', is_directory=False, is_synthetic=False)
+2025-03-18 19:27:59,598 - fsevents - DEBUG - queue_event DirModifiedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/visualization_output', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+2025-03-18 19:27:59,620 - fsevents - DEBUG - NativeEvent(path="/Users/Rudra/Downloads/Model/deep_layout/synth/visualization_output/meow.png", inode=27992467, flags=10800, id=193578940): is_file, is_renamed
+2025-03-18 19:27:59,620 - fsevents - DEBUG - queue_event FileDeletedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/visualization_output/meow.png', dest_path='', event_type='deleted', is_directory=False, is_synthetic=False)
+2025-03-18 19:27:59,620 - fsevents - DEBUG - queue_event DirModifiedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/visualization_output', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+2025-03-18 19:27:59,642 - fsevents - DEBUG - NativeEvent(path="/Users/Rudra/Downloads/Model/deep_layout/synth/visualization_output/Hsk.png", inode=27974237, flags=10800, id=193578944): is_file, is_renamed
+2025-03-18 19:27:59,642 - fsevents - DEBUG - queue_event FileDeletedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/visualization_output/Hsk.png', dest_path='', event_type='deleted', is_directory=False, is_synthetic=False)
+2025-03-18 19:27:59,643 - fsevents - DEBUG - queue_event DirModifiedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/visualization_output', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+2025-03-18 19:27:59,655 - fsevents - DEBUG - NativeEvent(path="/Users/Rudra/Downloads/Model/deep_layout/synth/visualization_output/bb.png", inode=27944919, flags=10800, id=193578948): is_file, is_renamed
+2025-03-18 19:27:59,655 - fsevents - DEBUG - NativeEvent(path="/Users/Rudra/Downloads/Model/deep_layout/synth/visualization_output/0in1367.png", inode=28036496, flags=10800, id=193578952): is_file, is_renamed
+2025-03-18 19:27:59,655 - fsevents - DEBUG - queue_event FileDeletedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/visualization_output/bb.png', dest_path='', event_type='deleted', is_directory=False, is_synthetic=False)
+2025-03-18 19:27:59,656 - fsevents - DEBUG - queue_event DirModifiedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/visualization_output', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+2025-03-18 19:27:59,656 - fsevents - DEBUG - queue_event FileDeletedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/visualization_output/0in1367.png', dest_path='', event_type='deleted', is_directory=False, is_synthetic=False)
+2025-03-18 19:27:59,656 - fsevents - DEBUG - queue_event DirModifiedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/visualization_output', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+2025-03-18 19:28:11,828 - __main__ - INFO - Saved file at uploads/Hsk.png
+2025-03-18 19:28:11,829 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2025-03-18 19:28:11,829 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2025-03-18 19:28:11,829 - PIL.PngImagePlugin - DEBUG - STREAM b'eXIf' 54 132
+2025-03-18 19:28:11,829 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 198 9
+2025-03-18 19:28:11,829 - PIL.PngImagePlugin - DEBUG - STREAM b'iDOT' 219 28
+2025-03-18 19:28:11,829 - PIL.PngImagePlugin - DEBUG - b'iDOT' 219 28 (unknown)
+2025-03-18 19:28:11,829 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 259 2987
+2025-03-18 19:28:11,829 - __main__ - INFO - Image format: PNG, Size: (256, 256), Mode: RGBA
+2025-03-18 19:28:11,832 - __main__ - INFO - Array shape: (256, 256, 4), dtype: uint8, Unique values count per channel: R:128, G:1, B:1, A:2
+2025-03-18 19:28:11,832 - __main__ - INFO - Starting synthesis phase...
+2025-03-18 19:28:11,839 - fsevents - DEBUG - NativeEvent(path="/Users/Rudra/Downloads/Model/deep_layout/synth/uploads/Hsk.png", inode=27974226, flags=11400, id=193579038): is_file, is_inode_meta_mod, is_modified
+2025-03-18 19:28:11,839 - fsevents - DEBUG - NativeEvent(path="/Users/Rudra/Downloads/Model/deep_layout/synth/synth_output/Hsk.png", inode=28067326, flags=10200, id=193579041): is_file, is_removed
+2025-03-18 19:28:11,839 - fsevents - DEBUG - NativeEvent(path="/Users/Rudra/Downloads/Model/deep_layout/synth/synth_output", inode=28067322, flags=20200, id=193579044): is_directory, is_removed
+2025-03-18 19:28:11,839 - fsevents - DEBUG - NativeEvent(path="/Users/Rudra/Downloads/Model/deep_layout/synth/synth_output", inode=28067382, flags=20100, id=193579047): is_created, is_directory
+2025-03-18 19:28:11,839 - fsevents - DEBUG - queue_event FileModifiedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/uploads/Hsk.png', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+2025-03-18 19:28:11,840 - fsevents - DEBUG - queue_event FileDeletedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/synth_output/Hsk.png', dest_path='', event_type='deleted', is_directory=False, is_synthetic=False)
+2025-03-18 19:28:11,840 - fsevents - DEBUG - queue_event DirModifiedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/synth_output', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+2025-03-18 19:28:11,840 - fsevents - DEBUG - queue_event DirDeletedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/synth_output', dest_path='', event_type='deleted', is_directory=True, is_synthetic=False)
+2025-03-18 19:28:11,840 - fsevents - DEBUG - queue_event DirModifiedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+2025-03-18 19:28:11,841 - fsevents - DEBUG - queue_event DirCreatedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/synth_output', dest_path='', event_type='created', is_directory=True, is_synthetic=False)
+2025-03-18 19:28:11,841 - fsevents - DEBUG - queue_event DirModifiedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+2025-03-18 19:28:14,025 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2025-03-18 19:28:14,026 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2025-03-18 19:28:14,026 - PIL.PngImagePlugin - DEBUG - STREAM b'eXIf' 54 132
+2025-03-18 19:28:14,026 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 198 9
+2025-03-18 19:28:14,026 - PIL.PngImagePlugin - DEBUG - STREAM b'iDOT' 219 28
+2025-03-18 19:28:14,026 - PIL.PngImagePlugin - DEBUG - b'iDOT' 219 28 (unknown)
+2025-03-18 19:28:14,026 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 259 2987
+2025-03-18 19:28:15,524 - __main__ - INFO - Synthesis complete. Output saved at: synth_output/Hsk.png
+2025-03-18 19:28:15,524 - __main__ - INFO - Waiting 2 seconds for synthesis to stabilize...
+2025-03-18 19:28:15,532 - fsevents - DEBUG - NativeEvent(path="/Users/Rudra/Downloads/Model/deep_layout/synth/synth_output/Hsk.png", inode=28067391, flags=11100, id=193579198): is_created, is_file, is_modified
+2025-03-18 19:28:15,532 - fsevents - DEBUG - queue_event FileCreatedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/synth_output/Hsk.png', dest_path='', event_type='created', is_directory=False, is_synthetic=False)
+2025-03-18 19:28:15,532 - fsevents - DEBUG - queue_event DirModifiedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/synth_output', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+2025-03-18 19:28:15,532 - fsevents - DEBUG - queue_event FileModifiedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/synth_output/Hsk.png', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+2025-03-18 19:28:18,034 - __main__ - INFO - Starting normalization phase...
+2025-03-18 19:28:18,039 - __main__ - INFO - Normalizing: synth_output/Hsk.png
+2025-03-18 19:28:18,039 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2025-03-18 19:28:18,039 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 41 2874
+2025-03-18 19:28:18,040 - __main__ - DEBUG - Input map shape: (256, 256, 4)
+2025-03-18 19:28:18,056 - fsevents - DEBUG - NativeEvent(path="/Users/Rudra/Downloads/Model/deep_layout/synth/synth_normalization/Hsk.png", inode=28067331, flags=10200, id=193579293): is_file, is_removed
+2025-03-18 19:28:18,068 - fsevents - DEBUG - NativeEvent(path="/Users/Rudra/Downloads/Model/deep_layout/synth/synth_normalization", inode=28067330, flags=20200, id=193579296): is_directory, is_removed
+2025-03-18 19:28:18,081 - fsevents - DEBUG - NativeEvent(path="/Users/Rudra/Downloads/Model/deep_layout/synth/synth_normalization", inode=28067397, flags=20100, id=193579299): is_created, is_directory
+2025-03-18 19:28:18,100 - fsevents - DEBUG - queue_event FileDeletedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/synth_normalization/Hsk.png', dest_path='', event_type='deleted', is_directory=False, is_synthetic=False)
+2025-03-18 19:28:18,112 - fsevents - DEBUG - queue_event DirModifiedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/synth_normalization', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+2025-03-18 19:28:18,117 - fsevents - DEBUG - queue_event DirDeletedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/synth_normalization', dest_path='', event_type='deleted', is_directory=True, is_synthetic=False)
+2025-03-18 19:28:18,117 - fsevents - DEBUG - queue_event DirModifiedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+2025-03-18 19:28:18,117 - fsevents - DEBUG - queue_event DirCreatedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/synth_normalization', dest_path='', event_type='created', is_directory=True, is_synthetic=False)
+2025-03-18 19:28:18,117 - fsevents - DEBUG - queue_event DirModifiedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+2025-03-18 19:28:18,121 - __main__ - INFO - Normalization complete for: Hsk.png
+2025-03-18 19:28:18,121 - __main__ - INFO - Starting visualization phase...
+2025-03-18 19:28:18,136 - fsevents - DEBUG - NativeEvent(path="/Users/Rudra/Downloads/Model/deep_layout/synth/synth_normalization/Hsk.png", inode=28067398, flags=11100, id=193579308): is_created, is_file, is_modified
+2025-03-18 19:28:18,136 - fsevents - DEBUG - queue_event FileCreatedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/synth_normalization/Hsk.png', dest_path='', event_type='created', is_directory=False, is_synthetic=False)
+2025-03-18 19:28:18,136 - fsevents - DEBUG - queue_event DirModifiedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/synth_normalization', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+2025-03-18 19:28:18,136 - fsevents - DEBUG - queue_event FileModifiedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/synth_normalization/Hsk.png', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+2025-03-18 19:28:19,155 - fsevents - DEBUG - NativeEvent(path="/Users/Rudra/Downloads/Model/deep_layout/synth/visualization_output/Hsk.png", inode=28067399, flags=10100, id=193579311): is_created, is_file
+2025-03-18 19:28:19,155 - fsevents - DEBUG - queue_event FileCreatedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/visualization_output/Hsk.png', dest_path='', event_type='created', is_directory=False, is_synthetic=False)
+2025-03-18 19:28:19,156 - fsevents - DEBUG - queue_event DirModifiedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/visualization_output', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+2025-03-18 19:28:19,179 - __main__ - INFO - Visualization complete. Output saved at: visualization_output/Hsk.png
+2025-03-18 19:28:19,184 - fsevents - DEBUG - NativeEvent(path="/Users/Rudra/Downloads/Model/deep_layout/synth/visualization_output/Hsk.png", inode=28067399, flags=11100, id=193579314): is_created, is_file, is_modified
+2025-03-18 19:28:19,184 - fsevents - DEBUG - queue_event FileModifiedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/visualization_output/Hsk.png', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+2025-03-18 19:28:19,199 - werkzeug - INFO - 127.0.0.1 - - [18/Mar/2025 19:28:19] "POST /generate_floorplan HTTP/1.1" 200 -
+2025-03-18 19:30:33,974 - __main__ - INFO - Saved file at uploads/TT.png
+2025-03-18 19:30:33,975 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2025-03-18 19:30:33,975 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2025-03-18 19:30:33,975 - PIL.PngImagePlugin - DEBUG - STREAM b'eXIf' 54 132
+2025-03-18 19:30:33,975 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 198 9
+2025-03-18 19:30:33,975 - PIL.PngImagePlugin - DEBUG - STREAM b'iDOT' 219 28
+2025-03-18 19:30:33,975 - PIL.PngImagePlugin - DEBUG - b'iDOT' 219 28 (unknown)
+2025-03-18 19:30:33,975 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 259 2494
+2025-03-18 19:30:33,975 - __main__ - INFO - Image format: PNG, Size: (256, 256), Mode: RGBA
+2025-03-18 19:30:33,978 - __main__ - INFO - Array shape: (256, 256, 4), dtype: uint8, Unique values count per channel: R:129, G:1, B:2, A:251
+2025-03-18 19:30:33,978 - __main__ - INFO - Starting synthesis phase...
+2025-03-18 19:30:34,002 - fsevents - DEBUG - NativeEvent(path="/Users/Rudra/Downloads/Model/deep_layout/synth/uploads/TT.png", inode=27934667, flags=11400, id=193591360): is_file, is_inode_meta_mod, is_modified
+2025-03-18 19:30:34,003 - fsevents - DEBUG - NativeEvent(path="/Users/Rudra/Downloads/Model/deep_layout/synth/synth_output/Hsk.png", inode=28067391, flags=10200, id=193591363): is_file, is_removed
+2025-03-18 19:30:34,004 - fsevents - DEBUG - NativeEvent(path="/Users/Rudra/Downloads/Model/deep_layout/synth/synth_output", inode=28067382, flags=20200, id=193591366): is_directory, is_removed
+2025-03-18 19:30:34,004 - fsevents - DEBUG - NativeEvent(path="/Users/Rudra/Downloads/Model/deep_layout/synth/synth_output", inode=28068076, flags=20100, id=193591369): is_created, is_directory
+2025-03-18 19:30:34,004 - fsevents - DEBUG - queue_event FileModifiedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/uploads/TT.png', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+2025-03-18 19:30:34,004 - fsevents - DEBUG - queue_event FileDeletedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/synth_output/Hsk.png', dest_path='', event_type='deleted', is_directory=False, is_synthetic=False)
+2025-03-18 19:30:34,006 - fsevents - DEBUG - queue_event DirModifiedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/synth_output', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+2025-03-18 19:30:34,007 - fsevents - DEBUG - queue_event DirDeletedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/synth_output', dest_path='', event_type='deleted', is_directory=True, is_synthetic=False)
+2025-03-18 19:30:34,007 - fsevents - DEBUG - queue_event DirModifiedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+2025-03-18 19:30:34,007 - fsevents - DEBUG - queue_event DirCreatedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/synth_output', dest_path='', event_type='created', is_directory=True, is_synthetic=False)
+2025-03-18 19:30:34,007 - fsevents - DEBUG - queue_event DirModifiedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+2025-03-18 19:30:36,073 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2025-03-18 19:30:36,073 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2025-03-18 19:30:36,073 - PIL.PngImagePlugin - DEBUG - STREAM b'eXIf' 54 132
+2025-03-18 19:30:36,073 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 198 9
+2025-03-18 19:30:36,073 - PIL.PngImagePlugin - DEBUG - STREAM b'iDOT' 219 28
+2025-03-18 19:30:36,073 - PIL.PngImagePlugin - DEBUG - b'iDOT' 219 28 (unknown)
+2025-03-18 19:30:36,073 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 259 2494
+2025-03-18 19:30:37,386 - __main__ - INFO - Synthesis complete. Output saved at: synth_output/TT.png
+2025-03-18 19:30:37,386 - __main__ - INFO - Waiting 2 seconds for synthesis to stabilize...
+2025-03-18 19:30:37,394 - fsevents - DEBUG - NativeEvent(path="/Users/Rudra/Downloads/Model/deep_layout/synth/synth_output/TT.png", inode=28068085, flags=11100, id=193591533): is_created, is_file, is_modified
+2025-03-18 19:30:37,394 - fsevents - DEBUG - queue_event FileCreatedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/synth_output/TT.png', dest_path='', event_type='created', is_directory=False, is_synthetic=False)
+2025-03-18 19:30:37,394 - fsevents - DEBUG - queue_event DirModifiedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/synth_output', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+2025-03-18 19:30:37,394 - fsevents - DEBUG - queue_event FileModifiedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/synth_output/TT.png', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+2025-03-18 19:30:39,897 - __main__ - INFO - Starting normalization phase...
+2025-03-18 19:30:39,898 - __main__ - INFO - Normalizing: synth_output/TT.png
+2025-03-18 19:30:39,898 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2025-03-18 19:30:39,898 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 41 2917
+2025-03-18 19:30:39,899 - __main__ - DEBUG - Input map shape: (256, 256, 4)
+2025-03-18 19:30:39,916 - fsevents - DEBUG - NativeEvent(path="/Users/Rudra/Downloads/Model/deep_layout/synth/synth_normalization/Hsk.png", inode=28067398, flags=10200, id=193591665): is_file, is_removed
+2025-03-18 19:30:39,927 - fsevents - DEBUG - NativeEvent(path="/Users/Rudra/Downloads/Model/deep_layout/synth/synth_normalization", inode=28067397, flags=20200, id=193591668): is_directory, is_removed
+2025-03-18 19:30:39,939 - fsevents - DEBUG - NativeEvent(path="/Users/Rudra/Downloads/Model/deep_layout/synth/synth_normalization", inode=28068090, flags=20100, id=193591671): is_created, is_directory
+2025-03-18 19:30:39,958 - fsevents - DEBUG - queue_event FileDeletedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/synth_normalization/Hsk.png', dest_path='', event_type='deleted', is_directory=False, is_synthetic=False)
+2025-03-18 19:30:39,958 - fsevents - DEBUG - queue_event DirModifiedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/synth_normalization', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+2025-03-18 19:30:39,958 - fsevents - DEBUG - queue_event DirDeletedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/synth_normalization', dest_path='', event_type='deleted', is_directory=True, is_synthetic=False)
+2025-03-18 19:30:39,959 - fsevents - DEBUG - queue_event DirModifiedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+2025-03-18 19:30:39,959 - fsevents - DEBUG - queue_event DirCreatedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/synth_normalization', dest_path='', event_type='created', is_directory=True, is_synthetic=False)
+2025-03-18 19:30:39,959 - fsevents - DEBUG - queue_event DirModifiedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+2025-03-18 19:30:39,962 - __main__ - INFO - Normalization complete for: TT.png
+2025-03-18 19:30:39,962 - __main__ - INFO - Starting visualization phase...
+2025-03-18 19:30:39,983 - fsevents - DEBUG - NativeEvent(path="/Users/Rudra/Downloads/Model/deep_layout/synth/synth_normalization/TT.png", inode=28068091, flags=11100, id=193591677): is_created, is_file, is_modified
+2025-03-18 19:30:39,983 - fsevents - DEBUG - queue_event FileCreatedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/synth_normalization/TT.png', dest_path='', event_type='created', is_directory=False, is_synthetic=False)
+2025-03-18 19:30:39,984 - fsevents - DEBUG - queue_event DirModifiedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/synth_normalization', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+2025-03-18 19:30:39,984 - fsevents - DEBUG - queue_event FileModifiedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/synth_normalization/TT.png', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+2025-03-18 19:31:41,519 - __main__ - ERROR - Visualization error: Visualization failed: 
+=== Floor Plan Debug Information ===
+
+Exterior Wall Points:
+
+Interior Walls:
+
+Rooms:
+"\nFront Door: (x=0, y=0, w=0, h=0)"
+
+================================
+
+2025-03-18 19:31:45,776 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.3.187.12:5000
+2025-03-18 19:31:45,776 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-18 19:31:45,783 - werkzeug - INFO -  * Restarting with watchdog (fsevents)
+2025-03-18 19:31:47,013 - werkzeug - WARNING -  * Debugger is active!
+2025-03-18 19:31:47,033 - werkzeug - INFO -  * Debugger PIN: 690-938-629
+2025-03-18 19:32:01,248 - __main__ - INFO - Saved file at uploads/bb.png
+2025-03-18 19:32:01,257 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2025-03-18 19:32:01,257 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 41 986
+2025-03-18 19:32:01,257 - __main__ - INFO - Image format: PNG, Size: (256, 256), Mode: RGBA
+2025-03-18 19:32:01,259 - fsevents - DEBUG - NativeEvent(path="/Users/Rudra/Downloads/Model/deep_layout/synth/uploads/bb.png", inode=27944906, flags=11400, id=193593146): is_file, is_inode_meta_mod, is_modified
+2025-03-18 19:32:01,260 - fsevents - DEBUG - queue_event FileModifiedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/uploads/bb.png', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+2025-03-18 19:32:01,260 - __main__ - INFO - Array shape: (256, 256, 4), dtype: uint8, Unique values count per channel: R:3, G:2, B:8, A:2
+2025-03-18 19:32:01,260 - __main__ - INFO - Starting synthesis phase...
+2025-03-18 19:32:01,272 - fsevents - DEBUG - NativeEvent(path="/Users/Rudra/Downloads/Model/deep_layout/synth/synth_output/TT.png", inode=28068085, flags=10200, id=193593149): is_file, is_removed
+2025-03-18 19:32:01,272 - fsevents - DEBUG - NativeEvent(path="/Users/Rudra/Downloads/Model/deep_layout/synth/synth_output", inode=28068076, flags=20200, id=193593152): is_directory, is_removed
+2025-03-18 19:32:01,272 - fsevents - DEBUG - NativeEvent(path="/Users/Rudra/Downloads/Model/deep_layout/synth/synth_output", inode=28068181, flags=20100, id=193593155): is_created, is_directory
+2025-03-18 19:32:01,272 - fsevents - DEBUG - queue_event FileDeletedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/synth_output/TT.png', dest_path='', event_type='deleted', is_directory=False, is_synthetic=False)
+2025-03-18 19:32:01,272 - fsevents - DEBUG - queue_event DirModifiedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/synth_output', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+2025-03-18 19:32:01,273 - fsevents - DEBUG - queue_event DirDeletedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/synth_output', dest_path='', event_type='deleted', is_directory=True, is_synthetic=False)
+2025-03-18 19:32:01,273 - fsevents - DEBUG - queue_event DirModifiedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+2025-03-18 19:32:01,273 - fsevents - DEBUG - queue_event DirCreatedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/synth_output', dest_path='', event_type='created', is_directory=True, is_synthetic=False)
+2025-03-18 19:32:01,273 - fsevents - DEBUG - queue_event DirModifiedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+2025-03-18 19:32:03,369 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2025-03-18 19:32:03,369 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 41 986
+2025-03-18 19:32:04,840 - __main__ - INFO - Synthesis complete. Output saved at: synth_output/bb.png
+2025-03-18 19:32:04,840 - __main__ - INFO - Waiting 2 seconds for synthesis to stabilize...
+2025-03-18 19:32:04,848 - fsevents - DEBUG - NativeEvent(path="/Users/Rudra/Downloads/Model/deep_layout/synth/synth_output/bb.png", inode=28068182, flags=11100, id=193593164): is_created, is_file, is_modified
+2025-03-18 19:32:04,848 - fsevents - DEBUG - queue_event FileCreatedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/synth_output/bb.png', dest_path='', event_type='created', is_directory=False, is_synthetic=False)
+2025-03-18 19:32:04,849 - fsevents - DEBUG - queue_event DirModifiedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/synth_output', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+2025-03-18 19:32:04,849 - fsevents - DEBUG - queue_event FileModifiedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/synth_output/bb.png', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+2025-03-18 19:32:07,349 - __main__ - INFO - Starting normalization phase...
+2025-03-18 19:32:07,351 - __main__ - INFO - Normalizing: synth_output/bb.png
+2025-03-18 19:32:07,351 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2025-03-18 19:32:07,351 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 41 1147
+2025-03-18 19:32:07,352 - __main__ - DEBUG - Input map shape: (256, 256, 4)
+2025-03-18 19:32:07,369 - fsevents - DEBUG - NativeEvent(path="/Users/Rudra/Downloads/Model/deep_layout/synth/synth_normalization/TT.png", inode=28068091, flags=10200, id=193593176): is_file, is_removed
+2025-03-18 19:32:07,381 - fsevents - DEBUG - NativeEvent(path="/Users/Rudra/Downloads/Model/deep_layout/synth/synth_normalization", inode=28068090, flags=20200, id=193593179): is_directory, is_removed
+2025-03-18 19:32:07,394 - fsevents - DEBUG - NativeEvent(path="/Users/Rudra/Downloads/Model/deep_layout/synth/synth_normalization", inode=28068184, flags=20100, id=193593182): is_created, is_directory
+2025-03-18 19:32:07,411 - fsevents - DEBUG - queue_event FileDeletedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/synth_normalization/TT.png', dest_path='', event_type='deleted', is_directory=False, is_synthetic=False)
+2025-03-18 19:32:07,411 - fsevents - DEBUG - queue_event DirModifiedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/synth_normalization', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+2025-03-18 19:32:07,412 - fsevents - DEBUG - queue_event DirDeletedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/synth_normalization', dest_path='', event_type='deleted', is_directory=True, is_synthetic=False)
+2025-03-18 19:32:07,412 - fsevents - DEBUG - queue_event DirModifiedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+2025-03-18 19:32:07,412 - fsevents - DEBUG - queue_event DirCreatedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/synth_normalization', dest_path='', event_type='created', is_directory=True, is_synthetic=False)
+2025-03-18 19:32:07,412 - fsevents - DEBUG - queue_event DirModifiedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+2025-03-18 19:32:07,414 - __main__ - INFO - Normalization complete for: bb.png
+2025-03-18 19:32:07,415 - __main__ - INFO - Starting visualization phase...
+2025-03-18 19:32:07,434 - fsevents - DEBUG - NativeEvent(path="/Users/Rudra/Downloads/Model/deep_layout/synth/synth_normalization/bb.png", inode=28068185, flags=11100, id=193593188): is_created, is_file, is_modified
+2025-03-18 19:32:07,435 - fsevents - DEBUG - queue_event FileCreatedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/synth_normalization/bb.png', dest_path='', event_type='created', is_directory=False, is_synthetic=False)
+2025-03-18 19:32:07,435 - fsevents - DEBUG - queue_event DirModifiedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/synth_normalization', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+2025-03-18 19:32:07,435 - fsevents - DEBUG - queue_event FileModifiedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/synth_normalization/bb.png', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+2025-03-18 19:32:08,463 - fsevents - DEBUG - NativeEvent(path="/Users/Rudra/Downloads/Model/deep_layout/synth/visualization_output/bb.png", inode=28068188, flags=10100, id=193593215): is_created, is_file
+2025-03-18 19:32:08,463 - fsevents - DEBUG - queue_event FileCreatedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/visualization_output/bb.png', dest_path='', event_type='created', is_directory=False, is_synthetic=False)
+2025-03-18 19:32:08,463 - fsevents - DEBUG - queue_event DirModifiedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/visualization_output', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+2025-03-18 19:32:08,496 - __main__ - INFO - Visualization complete. Output saved at: visualization_output/bb.png
+2025-03-18 19:32:08,501 - fsevents - DEBUG - NativeEvent(path="/Users/Rudra/Downloads/Model/deep_layout/synth/visualization_output/bb.png", inode=28068188, flags=11100, id=193593218): is_created, is_file, is_modified
+2025-03-18 19:32:08,501 - fsevents - DEBUG - queue_event FileModifiedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/visualization_output/bb.png', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+2025-03-18 19:32:08,512 - werkzeug - INFO - 127.0.0.1 - - [18/Mar/2025 19:32:08] "POST /generate_floorplan HTTP/1.1" 200 -
+2025-03-18 19:33:31,585 - __main__ - INFO - Saved file at uploads/LLL.png
+2025-03-18 19:33:31,585 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2025-03-18 19:33:31,585 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2025-03-18 19:33:31,586 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 4488
+2025-03-18 19:33:31,586 - __main__ - INFO - Image format: PNG, Size: (256, 256), Mode: RGBA
+2025-03-18 19:33:31,590 - __main__ - INFO - Array shape: (256, 256, 4), dtype: uint8, Unique values count per channel: R:34, G:34, B:34, A:181
+2025-03-18 19:33:31,590 - __main__ - INFO - Starting synthesis phase...
+2025-03-18 19:33:31,607 - fsevents - DEBUG - NativeEvent(path="/Users/Rudra/Downloads/Model/deep_layout/synth/uploads/LLL.png", inode=28043369, flags=11400, id=193594359): is_file, is_inode_meta_mod, is_modified
+2025-03-18 19:33:31,607 - fsevents - DEBUG - NativeEvent(path="/Users/Rudra/Downloads/Model/deep_layout/synth/synth_output/bb.png", inode=28068182, flags=10200, id=193594362): is_file, is_removed
+2025-03-18 19:33:31,607 - fsevents - DEBUG - NativeEvent(path="/Users/Rudra/Downloads/Model/deep_layout/synth/synth_output", inode=28068181, flags=20200, id=193594365): is_directory, is_removed
+2025-03-18 19:33:31,607 - fsevents - DEBUG - NativeEvent(path="/Users/Rudra/Downloads/Model/deep_layout/synth/synth_output", inode=28068260, flags=20100, id=193594368): is_created, is_directory
+2025-03-18 19:33:31,607 - fsevents - DEBUG - queue_event FileModifiedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/uploads/LLL.png', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+2025-03-18 19:33:31,608 - fsevents - DEBUG - queue_event FileDeletedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/synth_output/bb.png', dest_path='', event_type='deleted', is_directory=False, is_synthetic=False)
+2025-03-18 19:33:31,608 - fsevents - DEBUG - queue_event DirModifiedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/synth_output', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+2025-03-18 19:33:31,608 - fsevents - DEBUG - queue_event DirDeletedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/synth_output', dest_path='', event_type='deleted', is_directory=True, is_synthetic=False)
+2025-03-18 19:33:31,608 - fsevents - DEBUG - queue_event DirModifiedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+2025-03-18 19:33:31,608 - fsevents - DEBUG - queue_event DirCreatedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/synth_output', dest_path='', event_type='created', is_directory=True, is_synthetic=False)
+2025-03-18 19:33:31,608 - fsevents - DEBUG - queue_event DirModifiedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+2025-03-18 19:33:33,713 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2025-03-18 19:33:33,713 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2025-03-18 19:33:33,713 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 4488
+2025-03-18 19:33:34,813 - __main__ - INFO - Synthesis complete. Output saved at: synth_output/LLL.png
+2025-03-18 19:33:34,813 - __main__ - INFO - Waiting 2 seconds for synthesis to stabilize...
+2025-03-18 19:33:34,822 - fsevents - DEBUG - NativeEvent(path="/Users/Rudra/Downloads/Model/deep_layout/synth/synth_output/LLL.png", inode=28068262, flags=11100, id=193594395): is_created, is_file, is_modified
+2025-03-18 19:33:34,822 - fsevents - DEBUG - queue_event FileCreatedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/synth_output/LLL.png', dest_path='', event_type='created', is_directory=False, is_synthetic=False)
+2025-03-18 19:33:34,822 - fsevents - DEBUG - queue_event DirModifiedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/synth_output', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+2025-03-18 19:33:34,822 - fsevents - DEBUG - queue_event FileModifiedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/synth_output/LLL.png', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+2025-03-18 19:33:37,323 - __main__ - INFO - Starting normalization phase...
+2025-03-18 19:33:37,324 - __main__ - INFO - Normalizing: synth_output/LLL.png
+2025-03-18 19:33:37,324 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2025-03-18 19:33:37,325 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 41 2104
+2025-03-18 19:33:37,325 - __main__ - DEBUG - Input map shape: (256, 256, 4)
+2025-03-18 19:33:37,342 - fsevents - DEBUG - NativeEvent(path="/Users/Rudra/Downloads/Model/deep_layout/synth/synth_normalization/bb.png", inode=28068185, flags=10200, id=193594420): is_file, is_removed
+2025-03-18 19:33:37,348 - fsevents - DEBUG - NativeEvent(path="/Users/Rudra/Downloads/Model/deep_layout/synth/synth_normalization", inode=28068184, flags=20200, id=193594423): is_directory, is_removed
+2025-03-18 19:33:37,348 - fsevents - DEBUG - NativeEvent(path="/Users/Rudra/Downloads/Model/deep_layout/synth/synth_normalization", inode=28068265, flags=20100, id=193594426): is_created, is_directory
+2025-03-18 19:33:37,348 - fsevents - DEBUG - queue_event FileDeletedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/synth_normalization/bb.png', dest_path='', event_type='deleted', is_directory=False, is_synthetic=False)
+2025-03-18 19:33:37,348 - fsevents - DEBUG - queue_event DirModifiedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/synth_normalization', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+2025-03-18 19:33:37,348 - fsevents - DEBUG - queue_event DirDeletedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/synth_normalization', dest_path='', event_type='deleted', is_directory=True, is_synthetic=False)
+2025-03-18 19:33:37,348 - fsevents - DEBUG - queue_event DirModifiedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+2025-03-18 19:33:37,348 - fsevents - DEBUG - queue_event DirCreatedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/synth_normalization', dest_path='', event_type='created', is_directory=True, is_synthetic=False)
+2025-03-18 19:33:37,349 - fsevents - DEBUG - queue_event DirModifiedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+2025-03-18 19:33:37,352 - __main__ - INFO - Normalization complete for: LLL.png
+2025-03-18 19:33:37,352 - __main__ - INFO - Starting visualization phase...
+2025-03-18 19:33:37,375 - fsevents - DEBUG - NativeEvent(path="/Users/Rudra/Downloads/Model/deep_layout/synth/synth_normalization/LLL.png", inode=28068266, flags=11100, id=193594432): is_created, is_file, is_modified
+2025-03-18 19:33:37,376 - fsevents - DEBUG - queue_event FileCreatedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/synth_normalization/LLL.png', dest_path='', event_type='created', is_directory=False, is_synthetic=False)
+2025-03-18 19:33:37,376 - fsevents - DEBUG - queue_event DirModifiedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/synth_normalization', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+2025-03-18 19:33:37,377 - fsevents - DEBUG - queue_event FileModifiedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/synth_normalization/LLL.png', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+2025-03-18 19:33:38,005 - __main__ - ERROR - Visualization error: Visualization failed: 
+=== Floor Plan Debug Information ===
+
+Exterior Wall Points:
+
+Interior Walls:
+
+Rooms:
+"\nFront Door: (x=0, y=0, w=0, h=0)"
+
+================================
+
+2025-03-18 19:33:38,034 - werkzeug - INFO - 127.0.0.1 - - [18/Mar/2025 19:33:38] "POST /generate_floorplan HTTP/1.1" 200 -
+2025-03-18 19:34:24,857 - __main__ - INFO - Saved file at uploads/yyl.png
+2025-03-18 19:34:24,857 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2025-03-18 19:34:24,857 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 41 661
+2025-03-18 19:34:24,857 - __main__ - INFO - Image format: PNG, Size: (256, 256), Mode: RGBA
+2025-03-18 19:34:24,860 - __main__ - INFO - Array shape: (256, 256, 4), dtype: uint8, Unique values count per channel: R:1, G:1, B:1, A:3
+2025-03-18 19:34:24,860 - __main__ - INFO - Starting synthesis phase...
+2025-03-18 19:34:24,936 - fsevents - DEBUG - NativeEvent(path="/Users/Rudra/Downloads/Model/deep_layout/synth/uploads/yyl.png", inode=28039975, flags=11400, id=193595213): is_file, is_inode_meta_mod, is_modified
+2025-03-18 19:34:24,936 - fsevents - DEBUG - NativeEvent(path="/Users/Rudra/Downloads/Model/deep_layout/synth/synth_output/LLL.png", inode=28068262, flags=10200, id=193595216): is_file, is_removed
+2025-03-18 19:34:24,936 - fsevents - DEBUG - NativeEvent(path="/Users/Rudra/Downloads/Model/deep_layout/synth/synth_output", inode=28068260, flags=20200, id=193595219): is_directory, is_removed
+2025-03-18 19:34:24,937 - fsevents - DEBUG - NativeEvent(path="/Users/Rudra/Downloads/Model/deep_layout/synth/synth_output", inode=28068326, flags=20100, id=193595222): is_created, is_directory
+2025-03-18 19:34:24,937 - fsevents - DEBUG - queue_event FileModifiedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/uploads/yyl.png', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+2025-03-18 19:34:24,938 - fsevents - DEBUG - queue_event FileDeletedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/synth_output/LLL.png', dest_path='', event_type='deleted', is_directory=False, is_synthetic=False)
+2025-03-18 19:34:24,938 - fsevents - DEBUG - queue_event DirModifiedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/synth_output', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+2025-03-18 19:34:24,938 - fsevents - DEBUG - queue_event DirDeletedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/synth_output', dest_path='', event_type='deleted', is_directory=True, is_synthetic=False)
+2025-03-18 19:34:24,938 - fsevents - DEBUG - queue_event DirModifiedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+2025-03-18 19:34:24,939 - fsevents - DEBUG - queue_event DirCreatedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/synth_output', dest_path='', event_type='created', is_directory=True, is_synthetic=False)
+2025-03-18 19:34:24,939 - fsevents - DEBUG - queue_event DirModifiedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+2025-03-18 19:34:27,089 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2025-03-18 19:34:27,090 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 41 661
+2025-03-18 19:34:27,790 - __main__ - INFO - Synthesis complete. Output saved at: synth_output/yyl.png
+2025-03-18 19:34:27,790 - __main__ - INFO - Waiting 2 seconds for synthesis to stabilize...
+2025-03-18 19:34:27,799 - fsevents - DEBUG - NativeEvent(path="/Users/Rudra/Downloads/Model/deep_layout/synth/synth_output/yyl.png", inode=28068330, flags=11100, id=193595267): is_created, is_file, is_modified
+2025-03-18 19:34:27,799 - fsevents - DEBUG - queue_event FileCreatedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/synth_output/yyl.png', dest_path='', event_type='created', is_directory=False, is_synthetic=False)
+2025-03-18 19:34:27,799 - fsevents - DEBUG - queue_event DirModifiedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/synth_output', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+2025-03-18 19:34:27,799 - fsevents - DEBUG - queue_event FileModifiedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/synth_output/yyl.png', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+2025-03-18 19:34:30,300 - __main__ - INFO - Starting normalization phase...
+2025-03-18 19:34:30,301 - __main__ - INFO - Normalizing: synth_output/yyl.png
+2025-03-18 19:34:30,302 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2025-03-18 19:34:30,302 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 41 1144
+2025-03-18 19:34:30,303 - __main__ - DEBUG - Input map shape: (256, 256, 4)
+2025-03-18 19:34:30,313 - fsevents - DEBUG - NativeEvent(path="/Users/Rudra/Downloads/Model/deep_layout/synth/synth_normalization/LLL.png", inode=28068266, flags=10200, id=193595297): is_file, is_removed
+2025-03-18 19:34:30,313 - fsevents - DEBUG - NativeEvent(path="/Users/Rudra/Downloads/Model/deep_layout/synth/synth_normalization", inode=28068265, flags=20200, id=193595300): is_directory, is_removed
+2025-03-18 19:34:30,313 - fsevents - DEBUG - NativeEvent(path="/Users/Rudra/Downloads/Model/deep_layout/synth/synth_normalization", inode=28068333, flags=20100, id=193595303): is_created, is_directory
+2025-03-18 19:34:30,313 - fsevents - DEBUG - NativeEvent(path="/Users/Rudra/Downloads/Model/deep_layout/synth/synth_normalization/yyl.png", inode=28068334, flags=10100, id=193595306): is_created, is_file
+2025-03-18 19:34:30,313 - fsevents - DEBUG - queue_event FileDeletedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/synth_normalization/LLL.png', dest_path='', event_type='deleted', is_directory=False, is_synthetic=False)
+2025-03-18 19:34:30,313 - fsevents - DEBUG - queue_event DirModifiedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/synth_normalization', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+2025-03-18 19:34:30,314 - fsevents - DEBUG - queue_event DirDeletedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/synth_normalization', dest_path='', event_type='deleted', is_directory=True, is_synthetic=False)
+2025-03-18 19:34:30,314 - fsevents - DEBUG - queue_event DirModifiedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+2025-03-18 19:34:30,314 - __main__ - INFO - Normalization complete for: yyl.png
+2025-03-18 19:34:30,314 - fsevents - DEBUG - queue_event DirCreatedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/synth_normalization', dest_path='', event_type='created', is_directory=True, is_synthetic=False)
+2025-03-18 19:34:30,314 - fsevents - DEBUG - queue_event DirModifiedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+2025-03-18 19:34:30,314 - fsevents - DEBUG - queue_event FileCreatedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/synth_normalization/yyl.png', dest_path='', event_type='created', is_directory=False, is_synthetic=False)
+2025-03-18 19:34:30,315 - fsevents - DEBUG - queue_event DirModifiedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/synth_normalization', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+2025-03-18 19:34:30,315 - __main__ - INFO - Starting visualization phase...
+2025-03-18 19:34:30,339 - fsevents - DEBUG - NativeEvent(path="/Users/Rudra/Downloads/Model/deep_layout/synth/synth_normalization/yyl.png", inode=28068334, flags=11100, id=193595309): is_created, is_file, is_modified
+2025-03-18 19:34:30,340 - fsevents - DEBUG - queue_event FileModifiedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/synth_normalization/yyl.png', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+2025-03-18 19:34:30,951 - __main__ - ERROR - Visualization error: Visualization failed: 
+=== Floor Plan Debug Information ===
+
+Exterior Wall Points:
+
+Interior Walls:
+
+Rooms:
+"\nFront Door: (x=0, y=0, w=0, h=0)"
+
+================================
+
+2025-03-18 19:34:30,978 - werkzeug - INFO - 127.0.0.1 - - [18/Mar/2025 19:34:30] "POST /generate_floorplan HTTP/1.1" 200 -
+2025-03-18 19:35:04,722 - __main__ - INFO - Saved file at uploads/Yss.png
+2025-03-18 19:35:04,723 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2025-03-18 19:35:04,723 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2025-03-18 19:35:04,723 - PIL.PngImagePlugin - DEBUG - STREAM b'eXIf' 54 132
+2025-03-18 19:35:04,723 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 198 9
+2025-03-18 19:35:04,723 - PIL.PngImagePlugin - DEBUG - STREAM b'iDOT' 219 28
+2025-03-18 19:35:04,723 - PIL.PngImagePlugin - DEBUG - b'iDOT' 219 28 (unknown)
+2025-03-18 19:35:04,723 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 259 1382
+2025-03-18 19:35:04,723 - __main__ - INFO - Image format: PNG, Size: (256, 256), Mode: RGBA
+2025-03-18 19:35:04,725 - __main__ - INFO - Array shape: (256, 256, 4), dtype: uint8, Unique values count per channel: R:1, G:1, B:1, A:2
+2025-03-18 19:35:04,725 - __main__ - INFO - Starting synthesis phase...
+2025-03-18 19:35:04,744 - fsevents - DEBUG - NativeEvent(path="/Users/Rudra/Downloads/Model/deep_layout/synth/uploads/Yss.png", inode=27914972, flags=11400, id=193595869): is_file, is_inode_meta_mod, is_modified
+2025-03-18 19:35:04,745 - fsevents - DEBUG - NativeEvent(path="/Users/Rudra/Downloads/Model/deep_layout/synth/synth_output/yyl.png", inode=28068330, flags=10200, id=193595872): is_file, is_removed
+2025-03-18 19:35:04,745 - fsevents - DEBUG - NativeEvent(path="/Users/Rudra/Downloads/Model/deep_layout/synth/synth_output", inode=28068326, flags=20200, id=193595875): is_directory, is_removed
+2025-03-18 19:35:04,745 - fsevents - DEBUG - NativeEvent(path="/Users/Rudra/Downloads/Model/deep_layout/synth/synth_output", inode=28068373, flags=20100, id=193595878): is_created, is_directory
+2025-03-18 19:35:04,745 - fsevents - DEBUG - queue_event FileModifiedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/uploads/Yss.png', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+2025-03-18 19:35:04,745 - fsevents - DEBUG - queue_event FileDeletedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/synth_output/yyl.png', dest_path='', event_type='deleted', is_directory=False, is_synthetic=False)
+2025-03-18 19:35:04,745 - fsevents - DEBUG - queue_event DirModifiedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/synth_output', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+2025-03-18 19:35:04,746 - fsevents - DEBUG - queue_event DirDeletedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/synth_output', dest_path='', event_type='deleted', is_directory=True, is_synthetic=False)
+2025-03-18 19:35:04,746 - fsevents - DEBUG - queue_event DirModifiedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+2025-03-18 19:35:04,746 - fsevents - DEBUG - queue_event DirCreatedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/synth_output', dest_path='', event_type='created', is_directory=True, is_synthetic=False)
+2025-03-18 19:35:04,746 - fsevents - DEBUG - queue_event DirModifiedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+2025-03-18 19:35:06,794 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2025-03-18 19:35:06,794 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2025-03-18 19:35:06,794 - PIL.PngImagePlugin - DEBUG - STREAM b'eXIf' 54 132
+2025-03-18 19:35:06,795 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 198 9
+2025-03-18 19:35:06,795 - PIL.PngImagePlugin - DEBUG - STREAM b'iDOT' 219 28
+2025-03-18 19:35:06,795 - PIL.PngImagePlugin - DEBUG - b'iDOT' 219 28 (unknown)
+2025-03-18 19:35:06,795 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 259 1382
+2025-03-18 19:35:08,176 - __main__ - INFO - Synthesis complete. Output saved at: synth_output/Yss.png
+2025-03-18 19:35:08,176 - __main__ - INFO - Waiting 2 seconds for synthesis to stabilize...
+2025-03-18 19:35:08,184 - fsevents - DEBUG - NativeEvent(path="/Users/Rudra/Downloads/Model/deep_layout/synth/synth_output/Yss.png", inode=28068377, flags=11100, id=193595911): is_created, is_file, is_modified
+2025-03-18 19:35:08,184 - fsevents - DEBUG - queue_event FileCreatedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/synth_output/Yss.png', dest_path='', event_type='created', is_directory=False, is_synthetic=False)
+2025-03-18 19:35:08,184 - fsevents - DEBUG - queue_event DirModifiedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/synth_output', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+2025-03-18 19:35:08,185 - fsevents - DEBUG - queue_event FileModifiedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/synth_output/Yss.png', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+2025-03-18 19:35:10,687 - __main__ - INFO - Starting normalization phase...
+2025-03-18 19:35:10,689 - __main__ - INFO - Normalizing: synth_output/Yss.png
+2025-03-18 19:35:10,690 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2025-03-18 19:35:10,690 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 41 1245
+2025-03-18 19:35:10,692 - __main__ - DEBUG - Input map shape: (256, 256, 4)
+2025-03-18 19:35:10,704 - fsevents - DEBUG - NativeEvent(path="/Users/Rudra/Downloads/Model/deep_layout/synth/synth_normalization/yyl.png", inode=28068334, flags=10200, id=193595941): is_file, is_removed
+2025-03-18 19:35:10,707 - fsevents - DEBUG - NativeEvent(path="/Users/Rudra/Downloads/Model/deep_layout/synth/synth_normalization", inode=28068333, flags=20200, id=193595944): is_directory, is_removed
+2025-03-18 19:35:10,707 - fsevents - DEBUG - NativeEvent(path="/Users/Rudra/Downloads/Model/deep_layout/synth/synth_normalization", inode=28068380, flags=20100, id=193595947): is_created, is_directory
+2025-03-18 19:35:10,707 - fsevents - DEBUG - queue_event FileDeletedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/synth_normalization/yyl.png', dest_path='', event_type='deleted', is_directory=False, is_synthetic=False)
+2025-03-18 19:35:10,707 - fsevents - DEBUG - queue_event DirModifiedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/synth_normalization', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+2025-03-18 19:35:10,707 - fsevents - DEBUG - queue_event DirDeletedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/synth_normalization', dest_path='', event_type='deleted', is_directory=True, is_synthetic=False)
+2025-03-18 19:35:10,708 - fsevents - DEBUG - queue_event DirModifiedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+2025-03-18 19:35:10,708 - fsevents - DEBUG - queue_event DirCreatedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/synth_normalization', dest_path='', event_type='created', is_directory=True, is_synthetic=False)
+2025-03-18 19:35:10,708 - fsevents - DEBUG - queue_event DirModifiedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+2025-03-18 19:35:10,712 - __main__ - INFO - Normalization complete for: Yss.png
+2025-03-18 19:35:10,712 - __main__ - INFO - Starting visualization phase...
+2025-03-18 19:35:10,734 - fsevents - DEBUG - NativeEvent(path="/Users/Rudra/Downloads/Model/deep_layout/synth/synth_normalization/Yss.png", inode=28068381, flags=11100, id=193595953): is_created, is_file, is_modified
+2025-03-18 19:35:10,734 - fsevents - DEBUG - queue_event FileCreatedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/synth_normalization/Yss.png', dest_path='', event_type='created', is_directory=False, is_synthetic=False)
+2025-03-18 19:35:10,735 - fsevents - DEBUG - queue_event DirModifiedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/synth_normalization', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+2025-03-18 19:35:10,735 - fsevents - DEBUG - queue_event FileModifiedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/synth_normalization/Yss.png', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+2025-03-18 19:35:11,494 - __main__ - ERROR - Visualization error: Visualization failed: 
+=== Floor Plan Debug Information ===
+
+Exterior Wall Points:
+
+Interior Walls:
+
+Rooms:
+"\nFront Door: (x=0, y=0, w=0, h=0)"
+
+================================
+
+2025-03-18 19:35:11,528 - werkzeug - INFO - 127.0.0.1 - - [18/Mar/2025 19:35:11] "POST /generate_floorplan HTTP/1.1" 200 -
+2025-03-18 19:35:51,598 - __main__ - INFO - Saved file at uploads/pre.png
+2025-03-18 19:35:51,599 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2025-03-18 19:35:51,599 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2025-03-18 19:35:51,599 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 8192
+2025-03-18 19:35:51,599 - __main__ - INFO - Image format: PNG, Size: (256, 256), Mode: RGBA
+2025-03-18 19:35:51,602 - __main__ - INFO - Array shape: (256, 256, 4), dtype: uint8, Unique values count per channel: R:199, G:173, B:176, A:245
+2025-03-18 19:35:51,602 - __main__ - INFO - Starting synthesis phase...
+2025-03-18 19:35:51,621 - fsevents - DEBUG - NativeEvent(path="/Users/Rudra/Downloads/Model/deep_layout/synth/uploads/pre.png", inode=27453038, flags=11400, id=193596932): is_file, is_inode_meta_mod, is_modified
+2025-03-18 19:35:51,621 - fsevents - DEBUG - NativeEvent(path="/Users/Rudra/Downloads/Model/deep_layout/synth/synth_output/Yss.png", inode=28068377, flags=10200, id=193596935): is_file, is_removed
+2025-03-18 19:35:51,621 - fsevents - DEBUG - NativeEvent(path="/Users/Rudra/Downloads/Model/deep_layout/synth/synth_output", inode=28068373, flags=20200, id=193596938): is_directory, is_removed
+2025-03-18 19:35:51,621 - fsevents - DEBUG - NativeEvent(path="/Users/Rudra/Downloads/Model/deep_layout/synth/synth_output", inode=28068452, flags=20100, id=193596941): is_created, is_directory
+2025-03-18 19:35:51,621 - fsevents - DEBUG - queue_event FileModifiedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/uploads/pre.png', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+2025-03-18 19:35:51,622 - fsevents - DEBUG - queue_event FileDeletedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/synth_output/Yss.png', dest_path='', event_type='deleted', is_directory=False, is_synthetic=False)
+2025-03-18 19:35:51,622 - fsevents - DEBUG - queue_event DirModifiedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/synth_output', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+2025-03-18 19:35:51,622 - fsevents - DEBUG - queue_event DirDeletedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/synth_output', dest_path='', event_type='deleted', is_directory=True, is_synthetic=False)
+2025-03-18 19:35:51,622 - fsevents - DEBUG - queue_event DirModifiedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+2025-03-18 19:35:51,622 - fsevents - DEBUG - queue_event DirCreatedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/synth_output', dest_path='', event_type='created', is_directory=True, is_synthetic=False)
+2025-03-18 19:35:51,622 - fsevents - DEBUG - queue_event DirModifiedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+2025-03-18 19:35:53,629 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2025-03-18 19:35:53,629 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2025-03-18 19:35:53,629 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 8192
+2025-03-18 19:35:55,172 - __main__ - INFO - Synthesis complete. Output saved at: synth_output/pre.png
+2025-03-18 19:35:55,172 - __main__ - INFO - Waiting 2 seconds for synthesis to stabilize...
+2025-03-18 19:35:55,179 - fsevents - DEBUG - NativeEvent(path="/Users/Rudra/Downloads/Model/deep_layout/synth/synth_output/pre.png", inode=28068453, flags=11100, id=193596962): is_created, is_file, is_modified
+2025-03-18 19:35:55,179 - fsevents - DEBUG - queue_event FileCreatedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/synth_output/pre.png', dest_path='', event_type='created', is_directory=False, is_synthetic=False)
+2025-03-18 19:35:55,179 - fsevents - DEBUG - queue_event DirModifiedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/synth_output', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+2025-03-18 19:35:55,179 - fsevents - DEBUG - queue_event FileModifiedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/synth_output/pre.png', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+2025-03-18 19:35:57,682 - __main__ - INFO - Starting normalization phase...
+2025-03-18 19:35:57,683 - __main__ - INFO - Normalizing: synth_output/pre.png
+2025-03-18 19:35:57,684 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2025-03-18 19:35:57,684 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 41 10850
+2025-03-18 19:35:57,685 - __main__ - DEBUG - Input map shape: (256, 256, 4)
+2025-03-18 19:35:57,701 - fsevents - DEBUG - NativeEvent(path="/Users/Rudra/Downloads/Model/deep_layout/synth/synth_normalization/Yss.png", inode=28068381, flags=10200, id=193597003): is_file, is_removed
+2025-03-18 19:35:57,713 - fsevents - DEBUG - NativeEvent(path="/Users/Rudra/Downloads/Model/deep_layout/synth/synth_normalization", inode=28068380, flags=20200, id=193597006): is_directory, is_removed
+2025-03-18 19:35:57,726 - fsevents - DEBUG - NativeEvent(path="/Users/Rudra/Downloads/Model/deep_layout/synth/synth_normalization", inode=28068457, flags=20100, id=193597009): is_created, is_directory
+2025-03-18 19:35:57,745 - fsevents - DEBUG - queue_event FileDeletedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/synth_normalization/Yss.png', dest_path='', event_type='deleted', is_directory=False, is_synthetic=False)
+2025-03-18 19:35:57,757 - fsevents - DEBUG - queue_event DirModifiedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/synth_normalization', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+2025-03-18 19:35:57,777 - fsevents - DEBUG - queue_event DirDeletedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/synth_normalization', dest_path='', event_type='deleted', is_directory=True, is_synthetic=False)
+2025-03-18 19:35:57,789 - fsevents - DEBUG - queue_event DirModifiedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+2025-03-18 19:35:57,801 - fsevents - DEBUG - queue_event DirCreatedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/synth_normalization', dest_path='', event_type='created', is_directory=True, is_synthetic=False)
+2025-03-18 19:35:57,801 - fsevents - DEBUG - queue_event DirModifiedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+2025-03-18 19:35:57,805 - __main__ - INFO - Normalization complete for: pre.png
+2025-03-18 19:35:57,805 - __main__ - INFO - Starting visualization phase...
+2025-03-18 19:35:57,828 - fsevents - DEBUG - NativeEvent(path="/Users/Rudra/Downloads/Model/deep_layout/synth/synth_normalization/pre.png", inode=28068458, flags=11100, id=193597024): is_created, is_file, is_modified
+2025-03-18 19:35:57,829 - fsevents - DEBUG - queue_event FileCreatedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/synth_normalization/pre.png', dest_path='', event_type='created', is_directory=False, is_synthetic=False)
+2025-03-18 19:35:57,829 - fsevents - DEBUG - queue_event DirModifiedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/synth_normalization', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+2025-03-18 19:35:57,830 - fsevents - DEBUG - queue_event FileModifiedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/synth_normalization/pre.png', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+2025-03-18 19:38:18,074 - fsevents - DEBUG - NativeEvent(path="/Users/Rudra/Downloads/Model/deep_layout/synth/.DS_Store", inode=27409208, flags=11400, id=193602404): is_file, is_inode_meta_mod, is_modified
+2025-03-18 19:38:18,074 - fsevents - DEBUG - queue_event FileModifiedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/.DS_Store', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+2025-03-18 19:38:41,382 - fsevents - DEBUG - NativeEvent(path="/Users/Rudra/Downloads/Model/deep_layout/synth/synth_normalization/pre.png", inode=28068458, flags=10800, id=193602753): is_file, is_renamed
+2025-03-18 19:38:41,382 - fsevents - DEBUG - queue_event FileDeletedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/synth_normalization/pre.png', dest_path='', event_type='deleted', is_directory=False, is_synthetic=False)
+2025-03-18 19:38:41,383 - fsevents - DEBUG - queue_event DirModifiedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/synth_normalization', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+2025-03-18 19:40:02,183 - fsevents - DEBUG - NativeEvent(path="/Users/Rudra/Downloads/Model/deep_layout/synth/synth_normalization/.DS_Store", inode=28070650, flags=1b500, id=193625465): is_created, is_file, is_inode_meta_mod, is_item_finder_info_modified, is_modified, is_xattr_mod
+2025-03-18 19:40:02,193 - fsevents - DEBUG - queue_event FileCreatedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/synth_normalization/.DS_Store', dest_path='', event_type='created', is_directory=False, is_synthetic=False)
+2025-03-18 19:40:02,193 - fsevents - DEBUG - queue_event DirModifiedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/synth_normalization', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+2025-03-18 19:40:02,194 - fsevents - DEBUG - queue_event FileModifiedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/synth_normalization/.DS_Store', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+2025-03-18 19:42:51,169 - fsevents - DEBUG - NativeEvent(path="/Users/Rudra/Downloads/Model/deep_layout/synth/main.py", inode=27409220, flags=11400, id=193629709): is_file, is_inode_meta_mod, is_modified
+2025-03-18 19:42:51,169 - fsevents - DEBUG - queue_event FileModifiedEvent(src_path='/Users/Rudra/Downloads/Model/deep_layout/synth/main.py', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+2025-03-18 19:42:51,170 - werkzeug - INFO -  * Detected change in '/Users/Rudra/Downloads/Model/deep_layout/synth/main.py', reloading
+2025-03-18 19:42:51,750 - werkzeug - INFO -  * Restarting with watchdog (fsevents)

@@ -1,0 +1,3 @@
+check.png: 2.23s
+0in1477.png: 3.31s
+0in1710.png: 3.26s

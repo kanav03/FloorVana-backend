@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_Deeplayout_FILE /Users/Rudra/Downloads/Model/deep_layout/visualization/deeplayout/build/Deeplayout)
+set(__QT_DEPLOY_TARGET_Deeplayout_TYPE EXECUTABLE)
